@@ -43,19 +43,24 @@ Chronograph has a large number of precreated dashboards to help you jumpstart yo
 
 ## Starting Chronograf
 
-Go to the setup directory and change the .env file and IEI_SERVICES variable to **services_all.json**
+### Configurating Telegraf to Collect CPU Utilization Measurements
 
-```
-IEI_SERVICES=services_all.json
-```
+Go to the **docker_setup** directory and open the **config/telegraf.conf** file
+
+Go to the INPUT PLUGINS section of the configuration file. This section begins at **line 1277**. If you are using vim type **:1277** to jump to the line.
+
+![](./images/telegraf-config.png)
+
+remove all the `#` comments to match the above image, hit "esc", type `:wq`, and hit "Enter"
 
 Then rebuild and restart the Intel Edge Insights Software services
 
 ```
+cd /home/eis/Workshop/IEdgeInsights-v1.5LTS/docker_setup
 sudo make build run
 ```
 
-Now open a browser and go to **https://localhost:8888**
+Now open a browser and go to **http://localhost:8888**
 
 ### Dashboards
 
@@ -67,22 +72,6 @@ You will be presented with chronograf's initial interface.
 
 ![](./images/default-hmi.png)
 Here you see links to instructions on how to configure Telegrah to capture different system metrics.
-
-### Configurating Telegraf to Collect CPU Utilization Measurements
-
-Go to the **docker_setup** directory and open the **config/telegraf.conf** file
-
-Go to the INPUT PLUGINS section of the configuration file. This section begins at **line 1277**. If you are using vim type **:1277** to jump to the line.
-
-![](./images/telegraf-config.png)
-
-
-Restart the Intel Edge Insights Software services by going to the **docker_setup** directory and typing:
-
-```
-sudo make build run
-```
-
 
 ### Exploring Data
 
