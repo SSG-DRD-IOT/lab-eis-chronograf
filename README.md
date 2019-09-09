@@ -74,6 +74,8 @@ Select the "Unsafe SSL" switch
 
 ![](./images/chronograf_influx_unsafe.png)
 
+When asked to create dashboard select the InfluxDB option. 
+
 You can skip the rest of the settings and connections for this lab. 
 
 ### Dashboards
