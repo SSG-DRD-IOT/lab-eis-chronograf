@@ -41,7 +41,6 @@ Chronograph has a large number of precreated dashboards to help you jumpstart yo
 * varnish
 * win_system
 
-## Starting Chronograf
 
 ### Configurating Telegraf to Collect CPU Utilization Measurements
 
@@ -59,8 +58,23 @@ Then rebuild and restart the Intel Edge Insights Software services
 cd /home/eis/Workshop/IEdgeInsights-v1.5LTS/docker_setup
 sudo make build run
 ```
+### Starting Chronograf
 
 Now open a browser and go to **http://localhost:8888**
+
+You will have to connect to the InfluxDB database that is running as part of EIS.
+
+Use the following settings:
+- connection URL: https://localhost:8086
+- Connection Name: Influx 1
+- Username: admin
+- Password: admin123
+
+Select the "Unsafe SSL" switch
+
+![](./images/chronograf_influx_unsafe.png)
+
+You can skip the rest of the settings and connections for this lab. 
 
 ### Dashboards
 
