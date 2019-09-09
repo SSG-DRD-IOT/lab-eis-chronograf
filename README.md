@@ -111,7 +111,7 @@ Select **Step Plot** chart in the lower left.
 
 ** You now have a Step-Plot of your systems CPU Utilization **
 
-!()[./image/one.png]
+!()[./images/one.png]
 
 
 ## Adding the Simulated Temperature Data to the HMI
