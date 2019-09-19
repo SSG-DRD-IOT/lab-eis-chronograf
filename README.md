@@ -41,6 +41,12 @@ Chronograph has a large number of precreated dashboards to help you jumpstart yo
 * varnish
 * win_system
 
+### Install and Launch Chronograf
+
+```
+sudo dpkg -i chronograf_1.7.7_amd64.deb
+chronograf
+```
 
 ### Configurating Telegraf to Collect CPU Utilization Measurements
 
