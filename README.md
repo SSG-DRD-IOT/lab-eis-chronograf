@@ -46,7 +46,7 @@ Chronograph has a large number of precreated dashboards to help you jumpstart yo
 ```
 cd ~/Downloads
 wget https://dl.influxdata.com/chronograf/releases/chronograf_1.7.14_amd64.deb
-sudo dpkg -i chronograf_1.7.7_amd64.deb
+sudo dpkg -i chronograf_1.7.14_amd64.deb
 chronograf
 ```
 
