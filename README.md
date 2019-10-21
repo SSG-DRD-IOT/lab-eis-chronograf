@@ -2,7 +2,7 @@
 
 ## Using Chronograf
 
-Chronograf is a web application that allows you to build dashboard style widgets that correspond to data from a variety of source such as influx DB for alerts from capacitor. Chronograph as an example of a human machine interface. In industrial applications human machine interfaces or HMI are flexible software programs that allow people to control and receive analytics from industry 4.0 machinery.
+Chronograf is a web application that allows you to build dashboard style data widgets from a variety of source such as InfluxDB for alerts from Kapacitor. Chronograph is an example of a human machine interface (HMI). Human machine interfaces are flexible software programs that allow people to control and receive analytics from different network enabled industry 4.0 machines.
 
 ![chrongraf](./images/chronograf.png)
 
