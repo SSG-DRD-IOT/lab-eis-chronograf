@@ -90,7 +90,7 @@ You can skip the rest of the settings and connections for this lab.
 
 On the left, you will see a menu bar. Click on the **Dashboards** link and select the **InfluxDB** dashboard.
 
-![](./images/leftmenu.png)
+![](./images/leftmenu2.png)
 
 You will be presented with chronograf's initial interface.
 
