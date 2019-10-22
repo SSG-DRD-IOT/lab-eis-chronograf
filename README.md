@@ -88,7 +88,7 @@ You can skip the rest of the settings and connections for this lab.
 
 ### Dashboards
 
-On the left, you will see a menu bar. Click on the **Dashboards** link and select the **System** dashboard.
+On the left, you will see a menu bar. Click on the **Dashboards** link and select the **InfluxDB** dashboard.
 
 ![](./images/leftmenu.png)
 
